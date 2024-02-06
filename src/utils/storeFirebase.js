@@ -11,13 +11,13 @@ import { getAnalytics } from "firebase/analytics";
 //     measurementId: "G-LY060SYC7Q"
 //   };
 const firebaseConfig = {
-    apiKey: "AIzaSyCV6cgWm6SFsQtqzX9wHBudgO9AWzsFxX0",
-    authDomain: "stgo-circular-economy2023.firebaseapp.com",
-    projectId: "stgo-circular-economy2023",
-    storageBucket: "stgo-circular-economy2023.appspot.com",
-    messagingSenderId: "599727409974",
-    appId: "1:599727409974:web:9ee6f1ed7a7cc50c6ac197",
-    measurementId: "G-B11CRD5X8P"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
